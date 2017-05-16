@@ -6,7 +6,7 @@ package ua.artcode.week1homework;
 
 //4.6. Вводим два числа, вывести их суму, если она в диапазоне от 11 до 19
 
-import ua.artcode.utils.MethodsContainer;
+import ua.artcode.rsClassesAtArtCode.MethodsContainer;
 
 public class _4_6_outSumOfTwoIfInRange {
     public static void main(String[] args) {

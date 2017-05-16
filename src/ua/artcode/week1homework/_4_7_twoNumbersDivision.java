@@ -4,7 +4,7 @@ package ua.artcode.week1homework;
  * Created by Lucas_Starman on 16.05.2017.
  */
 
-import ua.artcode.utils.MethodsContainer;
+import ua.artcode.rsClassesAtArtCode.MethodsContainer;
 
 //4.7. Вводим два числа, если одно из них делиться на другое без остатка, то выводим тру и показываем результат деления (целую часть от деления  и остачу)
 //в другом случае выводим false и показываем результат деления (целую часть от деления  и остачу)
@@ -35,12 +35,12 @@ public class _4_7_twoNumbersDivision {
 
     }
 
-    public static String messageForUser(boolean marker, int num1, int num2) {
+    public static void messageForUser(boolean marker, int num1, int num2) {
         System.out.println("Condition is " + marker);
         System.out.println("Entire part of division is " + num1 / num2);
         System.out.println("The rest of division is " + num1 % num2);
-        return null;
     }
 }
 
 //чому залишок від ділення меньшого на більше = діленому???
+//2-га частина умови завдання неоднозначна..

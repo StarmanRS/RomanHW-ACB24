@@ -6,7 +6,7 @@ package ua.artcode.week1homework;
 
 //4.2. Пользователь вводит три числа с консоли, нужно вывести на консоль наибольшее, наименьшее
 
-import ua.artcode.utils.MethodsContainer;
+import ua.artcode.rsClassesAtArtCode.MethodsContainer;
 
 public class _4_2_theBiggesAndSmallesttNumber {
     public static void main(String[] args) {
@@ -63,9 +63,8 @@ public class _4_2_theBiggesAndSmallesttNumber {
     }
 
     // method declaration for message
-    public static String messageForUser(int message, String description) {
+    public static void messageForUser(int message, String description) {
         System.out.println("Number " + message + " is the " + description + " among input");
-        return null;
     }
 }
 

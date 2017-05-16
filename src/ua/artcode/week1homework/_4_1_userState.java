@@ -13,7 +13,7 @@ public class _4_1_userState {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please, input number from 0 to 24");
+        System.out.println("Please, input number from 0 to 23");
         int hourNum = sc.nextInt();
 
         if (hourNum > 9 && hourNum <= 18) {

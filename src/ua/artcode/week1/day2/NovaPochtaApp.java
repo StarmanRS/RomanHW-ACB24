@@ -1,10 +1,10 @@
-package ua.artcode.utils;
+package ua.artcode.week1.day2;
 
 /**
  * Created by Lucas_Starman on 14.05.2017.
  */
 import java.util.Objects;
-import java.util.Scanner;
+import ua.artcode.rsClassesAtArtCode.MethodsContainer;
 
 public class NovaPochtaApp {
     public static void main(String[] args) {
@@ -16,12 +16,8 @@ public class NovaPochtaApp {
         String code1 = "fg89", code2 = "yu64", code3 = "ojo9";
         String product1 = "table", product2 = "wheel", product3 = "bottle";
 
-        Scanner input = new Scanner(System.in);
-
-        System.out.println("Please, input your code: ");
-
         //input or init user code
-        String userCode = input.nextLine();
+        String userCode = MethodsContainer.inputValueFromConsole("Please, input your code: ");
 
 
         //compare products with user code
@@ -38,19 +34,11 @@ public class NovaPochtaApp {
         } else {
             System.out.println("Your package on the other stok yet");
         }
-
-
     }
 
     //examples of methods creation
     public static String getSuccessMessage(String c, String n){
         String message = "Your code is " + c + ", product is " + n;
         return message;
-    }
-    //message для того, щоб написати "Введіть значення" в консолі
-    public static String inputValueFromConsole(String message){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(message);
-        return scanner.nextLine();
     }
 }
