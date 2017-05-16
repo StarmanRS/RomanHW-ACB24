@@ -20,10 +20,10 @@ public class _4_8_lastNumbers {
         int num1 = MethodsContainer.inputValueFromConsoleInt("Please input first number");
         int num2 = MethodsContainer.inputValueFromConsoleInt("Please input second number");
 
-        if ( num1 > 10 ) {
+        if ( num1 > 9 ) {
             num1 = num1 % 10;
         }
-        if ( num2 > 10 ) {
+        if ( num2 > 9 ) {
             num2 = num2 % 10;
         }
         if (num1 > num2) {
