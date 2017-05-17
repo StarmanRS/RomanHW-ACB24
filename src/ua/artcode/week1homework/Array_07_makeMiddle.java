@@ -15,19 +15,19 @@ makeMiddle([1, 2]) → [1, 2]
 public class Array_07_makeMiddle {
     public static void main(String[] args) {
 
-        int[] arr1 = {4, 5, -4, 0, 8, -1};
-        int[] arr2 = new int[2];
+        int[] a = {4, 5, -4, 0, 8, -1};
+        int[] b = new int[2];
 
-        arr2[0] = arr1[arr1.length / 2 - 1];
-        arr2[1] = arr1[arr1.length / 2];
+        b[0] = a[a.length / 2 - 1];
+        b[1] = a[a.length / 2];
 
         System.out.println("Result array: ");
 
         int i = 0;
         do {
-            System.out.print(arr2[i] + " ");
+            System.out.print(b[i] + " ");
             i++;
-        } while (i < arr2.length);
+        } while (i < b.length);
     }
 }
 

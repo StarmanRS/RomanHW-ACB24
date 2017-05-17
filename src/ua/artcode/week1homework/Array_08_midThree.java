@@ -15,13 +15,13 @@ midThree([1, 2, 3]) → [1, 2, 3]
 public class Array_08_midThree {
     public static void main(String[] args) {
 
-        int[] arr1 = {4, 5, -4, 0, 8, -1, 7};
+        int[] nums = {4, 5, -4, 0, 8, -1, 7};
         int[] arr2 = new int[3];
 
-        if (arr1.length > 2) {
-            arr2[0] = arr1[(arr1.length - 1) / 2 - 1];
-            arr2[1] = arr1[(arr1.length - 1) / 2];
-            arr2[2] = arr1[(arr1.length - 1) / 2 + 1];
+        if (nums.length > 2) {
+            arr2[0] = nums[(nums.length - 1) / 2 - 1];
+            arr2[1] = nums[(nums.length - 1) / 2];
+            arr2[2] = nums[(nums.length - 1) / 2 + 1];
         }
 
         System.out.println("Result array: ");

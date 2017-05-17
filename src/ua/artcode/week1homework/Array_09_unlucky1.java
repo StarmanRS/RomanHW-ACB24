@@ -15,10 +15,10 @@ unlucky1([1, 1, 1]) → false
 public class Array_09_unlucky1 {
     public static void main(String[] args) {
 
-        int[] arr = {2, 1, 3, 0, 1, 3, 1};
+        int[] nums = {2, 1, 3, 0, 1, 3, 1};
         boolean marker = false;
 
-        if (arr[0] == 1 && arr[1] == 3 || arr[1] == 1 && arr[2] == 3 || arr[arr.length - 2] == 1 && arr[arr.length] == 3) {
+        if (nums[0] == 1 && nums[1] == 3 || nums[1] == 1 && nums[2] == 3 || nums[nums.length - 2] == 1 && nums[nums.length - 1] == 3) {
             marker = true;
             System.out.println(marker + ", unlucky 1 is present");
         }
