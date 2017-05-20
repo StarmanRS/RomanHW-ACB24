@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 17.05.2017.
@@ -12,16 +12,11 @@ unlucky1([2, 1, 3, 4, 5]) → true
 unlucky1([1, 1, 1]) → false
 */
 
-public class Array_09_unlucky1 {
+public class Array_10_mytest {
     public static void main(String[] args) {
 
-        int[] nums = {2, 1, 3, 0, 1, 3, 1};
-        boolean marker = false;
+        System.out.println(Math.pow(2, 2));
 
-        if (nums[0] == 1 && nums[1] == 3 || nums[1] == 1 && nums[2] == 3 || nums[nums.length - 2] == 1 && nums[nums.length - 1] == 3) {
-            marker = true;
-            System.out.println(marker + ", unlucky 1 is present");
-        }
     }
 
 }

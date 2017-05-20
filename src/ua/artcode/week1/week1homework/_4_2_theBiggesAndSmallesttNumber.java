@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 14.05.2017.
@@ -6,7 +6,7 @@ package ua.artcode.week1homework;
 
 //4.2. Пользователь вводит три числа с консоли, нужно вывести на консоль наибольшее, наименьшее
 
-import ua.artcode.rsClassesAtArtCode.MethodsContainer;
+import ua.artcode.MethodsContainer;
 
 public class _4_2_theBiggesAndSmallesttNumber {
     public static void main(String[] args) {

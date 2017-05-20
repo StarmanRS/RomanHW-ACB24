@@ -4,7 +4,7 @@ package ua.artcode.week1.day2;
  * Created by Lucas_Starman on 14.05.2017.
  */
 import java.util.Objects;
-import ua.artcode.rsClassesAtArtCode.MethodsContainer;
+import ua.artcode.MethodsContainer;
 
 public class NovaPochtaApp {
     public static void main(String[] args) {

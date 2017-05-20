@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 17.05.2017.
@@ -11,7 +11,7 @@ package ua.artcode.week1homework;
         firstLast6([13, 6, 1, 2, 3]) → false
 
         */
-import ua.artcode.rsClassesAtArtCode.MethodsContainer;
+import ua.artcode.MethodsContainer;
 
 public class Array_01_firstLast6 {
     public static void main(String[] args) {
@@ -28,3 +28,4 @@ public class Array_01_firstLast6 {
 
     }
 }
+

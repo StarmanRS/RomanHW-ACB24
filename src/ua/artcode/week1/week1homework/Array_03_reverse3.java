@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 17.05.2017.
@@ -30,3 +30,4 @@ public class Array_03_reverse3 {
     }
 }
 //it's not clear to me meaning of return in the task condition??
+

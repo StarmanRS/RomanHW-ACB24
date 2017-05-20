@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 15.05.2017.
@@ -6,7 +6,7 @@ package ua.artcode.week1homework;
 
 //4.3. Пользователь вводит число. Вывести на экран его удвоенное значение, если число делится на 7 нацело.
 
-import ua.artcode.rsClassesAtArtCode.MethodsContainer;
+import ua.artcode.MethodsContainer;
 
 public class _4_3_outputOfNumberIfCondition {
     public static void main(String[] args) {

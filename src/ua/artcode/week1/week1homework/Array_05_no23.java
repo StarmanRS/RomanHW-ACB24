@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 17.05.2017.
@@ -27,3 +27,4 @@ public class Array_05_no23 {
         System.out.println("Result is: " + marker);
     }
 }
+

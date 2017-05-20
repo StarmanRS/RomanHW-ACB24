@@ -1,4 +1,4 @@
-package ua.artcode.week1homework;
+package ua.artcode.week1.week1homework;
 
 /**
  * Created by Lucas_Starman on 16.05.2017.
@@ -12,7 +12,7 @@ package ua.artcode.week1homework;
 			18     98   -   true
 */
 
-import ua.artcode.rsClassesAtArtCode.MethodsContainer;
+import ua.artcode.MethodsContainer;
 
 public class _4_8_lastNumbers {
     public static void main(String[] args) {

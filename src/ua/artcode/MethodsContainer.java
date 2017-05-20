@@ -1,4 +1,4 @@
-package ua.artcode.rsClassesAtArtCode;
+package ua.artcode;
 
 /**
  * Created by Lucas_Starman on 14.05.2017.
@@ -13,6 +13,11 @@ public class MethodsContainer {
     public static int inputValueFromConsoleInt(String message){
         Scanner scanner = new Scanner(System.in);
         System.out.println(message);
+        return scanner.nextInt();
+    }
+
+    public static int inputValueFromConsoleIntNoMessage(){
+        Scanner scanner = new Scanner(System.in);
         return scanner.nextInt();
     }
 
