@@ -1,4 +1,4 @@
-package ua.artcode.week2.homework;
+package ua.artcode.week2.week2homework;
 
 /**
  * Created by Lucas_Starman on 20.05.2017.
@@ -38,7 +38,7 @@ public class calculator {
             //operation index chosen by user reading form console, simple check for correct input, kick off back to start if not
             int operation = ua.artcode.MethodsContainer.inputValueFromConsoleIntNoMessage();
 
-            if (!(operation == 1 || operation == 2 || operation == 3 || operation == 4)) {
+            if (operation != 1 && operation != 2 && operation != 3 && operation != 4) {
                 System.out.println("Wrong input");
                 continue;
             }
@@ -51,24 +51,6 @@ public class calculator {
             //chosen operation performing using method (not very effective method - but just for method creation experience )
             operation(operand1, operand2, operation);
 
-/*            switch (operation) {
-                case 1:
-                    result = operand1 + operand2;
-                    resultMessage(result);
-                    break;
-                case 2:
-                    result = operand1 - operand2;
-                    resultMessage(result);
-                    break;
-                case 3:
-                    result = operand1 * operand2;
-                    resultMessage(result);
-                    break;
-                case 4:
-                    result = operand1 / operand2;
-                    resultMessage(result);
-                    break;
-            }*/
         }
     }
 
