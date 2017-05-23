@@ -11,7 +11,7 @@ public class _02_digitsMultiplication {
 
         //current realization is for 2-digits numbers only
 
-        int num = (int) (Math.random()*90 + 10);
+        int num = (int) (Math.random() * 90 + 10);
         System.out.println("Generated number is " + num);
 
         System.out.println("Result of multiplying num's digits is " + ((num / 10) * (num % 10)));

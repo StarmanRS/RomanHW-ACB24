@@ -11,10 +11,12 @@ public class _01_naturalNumbersRest {
 
         //numbers check and print using loop
 
-        for (int i = 35; i <= 87 ; i++) {
-            if (i % 7 == 1 || i % 7 == 2 || i % 7 == 5 ) {
+        for (int i = 35; i <= 87; i++) {
+
+            if (i % 7 == 1 || i % 7 == 2 || i % 7 == 5) {
                 System.out.print(i + " ");
             }
+
         }
 
     }

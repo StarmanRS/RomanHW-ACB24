@@ -10,9 +10,6 @@ import java.util.Scanner;
 public class day2classWork_01_min_max_inArray {
     public static void main(String[] args) {
 
-//        int[] arr = ua.artcode.utils.generateArray(10, 3, 79);
-//        ua.artcode.utils.printArray(arr);
-
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Please input array size");

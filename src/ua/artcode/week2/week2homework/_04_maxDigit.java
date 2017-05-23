@@ -21,8 +21,8 @@ public class _04_maxDigit {
         //outer loop is for string element iteration
         for (int i = 0; i < snum.length(); i++) {
             //inner loop is for check max symbol
-            for (int j = 0; j <= 9 ; j ++ ) {
-                if ( (snum.charAt(i) + "").equals(j + "") && j > maxDigit ) {
+            for (int j = 0; j <= 9; j++) {
+                if ((snum.charAt(i) + "").equals(j + "") && j > maxDigit) {
                     maxDigit = j;
                     break;
                 }
