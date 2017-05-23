@@ -30,7 +30,7 @@ public class _03_evenDigitsQuantity {
             if (!(String.valueOf(snum.charAt(i)).equals("0")) &&
                  (String.valueOf(snum.charAt(i)).equals("2") ||
                   String.valueOf(snum.charAt(i)).equals("4") ||
-                  String.valueOf(snum.charAt(i)).equals("4") ||
+                  String.valueOf(snum.charAt(i)).equals("6") ||
                   String.valueOf(snum.charAt(i)).equals("8"))) {
                 counter++;
             }
