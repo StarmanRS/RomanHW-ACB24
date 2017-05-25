@@ -17,7 +17,7 @@ public class _02_digitsMultiplication {
 
         System.out.println("Please, input any number");
 
-        int num = scan.nextInt();        //receiving number from console
+        long num = scan.nextLong();        //receiving number from console
         String snum = String.valueOf(num);  //casting number to string
         String[] sNumArr = snum.split(""); //split casted to string number into string array
 
