@@ -20,8 +20,8 @@ public class _03_evenDigitsQuantity {
 
         for (int i = 0; i < snum.length(); i++) {
 
-            if ((snum.charAt(i) != 0) && ((int) snum.charAt(i) % 2 == 0)) {
-// чому не працює умова з 0 ????
+            if ((((int) snum.charAt(i)) != 0) && ((int) snum.charAt(i) % 2 == 0)) {
+// чому пропускає 0 як парну, якщо я виключаю його першою умовою іфа ????
                 counter++;
             }
         }
