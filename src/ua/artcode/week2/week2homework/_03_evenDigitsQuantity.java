@@ -9,22 +9,20 @@ package ua.artcode.week2.week2homework;
 public class _03_evenDigitsQuantity {
     public static void main(String[] args) {
 
-        //random number generation
-        int num = (int) (Math.random() * Math.pow(10, 6));
-        System.out.println("Generated number is " + num);
 
-        //generated int to string
-        String snum = String.valueOf(num);
+        int num = (int) (Math.random() * Math.pow(10, 6));  //random number generation
+        System.out.println("Generated number is " + num);   //for visual check
+
+        String snum = String.valueOf(num);  //generated int to string
+        String[] tempArr = snum.split("");
 
         int counter = 0;
 
-        for (int i = 0; i < snum.length(); i++) {
+        for (int i = 0; i < snum.length(); i++) {   //loop for check each element
 
-            if ((((int) snum.charAt(i)) != 0) && ((int) snum.charAt(i) % 2 == 0)) {
-                System.out.println(snum.charAt(i)); //for visual check
-                System.out.println(snum.charAt(i)!=0 ); //for visual check
-// чому пропускає 0 як парну, якщо я виключаю його першою умовою іфа ????
-                counter++;
+                if ((Integer.valueOf(tempArr[i]) != 0) && (Integer.valueOf(tempArr[i]) % 2 == 0)) { //if digit !=0 && %2==0 counter++
+
+                    counter++;
             }
         }
 

@@ -14,19 +14,18 @@ public class _04_maxDigit {
         System.out.println("Generated number is " + num);
 
         //generated int to string
-        String snum = num + "";
+        String snum = String.valueOf(num);
+        String[] snumArr = snum.split("");
 
         int maxDigit = 0;
 
         //outer loop is for string element iteration
         for (int i = 0; i < snum.length(); i++) {
-            //inner loop is for check max symbol
-            for (int j = 0; j <= 9; j++) {
-                if ((snum.charAt(i) + "").equals(j + "") && j > maxDigit) {
-                    maxDigit = j;
-                    break;
+                if (Integer.valueOf(snumArr[i]) > maxDigit) {
+                    maxDigit = Integer.valueOf(snumArr[i]);
                 }
-            }
+
+                if (maxDigit == 9) break;
         }
 
         System.out.println("The biggest digit in number is " + maxDigit);

@@ -33,7 +33,7 @@ public class _07_sumOddNumbersInRange {
 
         //v2 check range length, check fist and last, just sum up with step 2
 
-        if ((endNum - startNum) == 1) {
+        if ((endNum - startNum) == 1) { // check if range consists of two numbers, assigning results and exit if true
 
             if (startNum % 2 == 0) {
                 counter = endNum;
@@ -41,20 +41,20 @@ public class _07_sumOddNumbersInRange {
                 counter = startNum;
             }
 
-        } else if ((endNum - startNum) > 1) {
+        } else if ((endNum - startNum) > 1) { // check if range consists of more than 2 numbers
 
-            int sumLoopStart = startNum;
-            int sumLoopEnd = endNum;
+            int sumLoopStart = startNum; // start of sumLoop iteration if startNum is odd
+            int sumLoopEnd = endNum; // end of sumLoop iteration if startNum is odd
 
-            if (startNum % 2 == 0) {
+            if (startNum % 2 == 0) { // shift (+1) of Start of sumLoop if startNum is even
                 sumLoopStart = startNum + 1;
             }
 
-            if (endNum % 2 == 0) {
+            if (endNum % 2 == 0) {// shift (-1) of End of sumLoop if endNum is even
                 sumLoopEnd = endNum - 1;
             }
 
-            for (int i = sumLoopStart; i <= sumLoopEnd; i += 2) {
+            for (int i = sumLoopStart; i <= sumLoopEnd; i += 2) { // sum of range with step +2
                 counter += i;
             }
 
