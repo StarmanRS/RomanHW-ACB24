@@ -21,6 +21,8 @@ public class _03_evenDigitsQuantity {
         for (int i = 0; i < snum.length(); i++) {
 
             if ((((int) snum.charAt(i)) != 0) && ((int) snum.charAt(i) % 2 == 0)) {
+                System.out.println(snum.charAt(i)); //for visual check
+                System.out.println(snum.charAt(i)!=0 ); //for visual check
 // чому пропускає 0 як парну, якщо я виключаю його першою умовою іфа ????
                 counter++;
             }
